@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #3a3d47;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedor{
+    width: 1280px;
+    background: rgb(0, 0, 0);
+    margin: 10px auto;
+}
+
+.superior{
+    background: #000000;
+    overflow: hidden;
+}
+
+.logo{
+    text-align: center;
+    float: left;
+    width: 250px;
+    padding: 35px 40px;
+}
+
+.menu{
+    float: left;
+}
+
+/*estilos para el menu de opciones*/
+
+.menu{
+    float: left;
+    padding: 65px;
+}
+.opciones li {
+    float: left;
+    list-style: none;
+}
+
+.opciones li a{
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+.opciones li a:hover{
+    background: #f5b41f;
+}
+
+.slider-frame{
+    width: 1280px;
+    height: 500px;
+    overflow: hidden;
+
+    
+}
+
+.slider-frame ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: slide 15s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+    list-style: none;
+    width: 100%;
+   
+}
+
+.slider-frame img {
+    width: 100%;
+}
+
+@keyframes slide {
+    0% {margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25% {margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+/* estilos para body*/
+
+.cuerpo{
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+}
+
+.caja{
+    float: left;
+    width: 400px;
+    margin: 13px;
+}
+
+.subtitulo{
+    background: #000000;
+    background-image: linear-gradient(to right, #8c1e2c , #b94b3e);
+}
+
+.servicios{
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.efecto:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.caja{
+    float: left;
+    width: 400px;
+    margin: 12px;
+}
+
+.contenido{
+    padding: 20px;
+    text-align: justify;
+}
+
+.boton{
+    padding: 15px 20px;
+    margin: 20px 0;
+    color: white;
+    background-image: linear-gradient(to right, #8c1e2c , #b94b3e);
+    border-radius: 5px;
+}
+
+.boton:hover{
+    background-image: linear-gradient(to right, #8c1e2c , #b94b3e);
+    cursor: pointer;
+}
+
+.titulo{
+    text-align: center;
+    padding: 20px 0 15px 0;
+    color: #ffffff;
+    font-size: 38;
+}
+
+/*estilos de footer*/
+.pie{
+    background: #ef5030;
+    overflow: hidden;
+    background-image: linear-gradient(to right, #fade62 , #f3a113);
+}
+
+.izquierda{
+    float: left;
+    width: 600px;
+    padding: 20px;
+}
+
+.derecho{
+    float: left;
+    width: 600px;
+    padding: 20px;
+}
+
+.abajo{
+    color: black;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.siguenos{
+    text-align: center;
+    color: black;
+    padding: 15px 0;
+}
